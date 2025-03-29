@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import dotenv from "dotenv";
 dotenv.config();
 const wallet = async (px) => {
-  const rpcUrl = `https://hidden-winter-fire.0g-newton.quiknode.pro/8af0e7ad0ff310122248671fb0169147b6cab49d/`;
+  const rpcUrl = `你的PRC_URL`;  //替换为你的 RPC_URL
   const web3 = new Web3(rpcUrl);
   const privateKey = px;
   const formattedPrivateKey = privateKey.startsWith("0x")
